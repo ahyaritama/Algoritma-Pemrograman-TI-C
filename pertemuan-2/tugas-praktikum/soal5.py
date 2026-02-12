@@ -12,6 +12,3 @@ def jarak(x1, y1, x2, y2):
     x = math.pow(x2 - x1, 2)
     y = math.pow(y2 - y1, 2)
     return math.sqrt(x + y)
-
-
-print("Jarak =", jarak(-3, 11, 2, -1))
